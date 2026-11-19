@@ -16,7 +16,7 @@ export default function Home() {
           <SectionLabel>Early access</SectionLabel>
 
           <h1 className="mt-2 max-w-3xl text-4xl font-semibold tracking-tight md:text-6xl">
-            An <span className="text-primary">slatesync</span> for whatever
+            A <span className="text-primary">slatesync</span> for whatever
             you&apos;re building
           </h1>
 
