@@ -26,7 +26,7 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Outpost: Agentic Workspace",
+  title: "SlateSync: Agentic Workspace",
   description:
     "An AI agent that draws and writes alongside you and your team, live.",
   icons: {
@@ -36,11 +36,11 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   // Link previews (Slack, X, iMessage...). On Vercel, Next fills in the site URL for these paths.
   openGraph: {
-    title: "Outpost: Agentic Workspace",
+    title: "SlateSync: Agentic Workspace",
     description:
       "An AI agent that draws and writes alongside you and your team, live.",
     images: [
-      { url: "/social/og-image.png", width: 1200, height: 630, alt: "Outpost" },
+      { url: "/social/og-image.png", width: 1200, height: 630, alt: "SlateSync" },
     ],
   },
   twitter: { card: "summary_large_image", images: ["/social/og-image.png"] },
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    // Outpost is dark-only, so Clerk's baseTheme is hardcoded to dark rather than synced to a toggle.
+    // SlateSync is dark-only, so Clerk's baseTheme is hardcoded to dark rather than synced to a toggle.
     <ClerkProvider
       appearance={{
         theme: dark,
